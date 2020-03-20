@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  It allows the developer to easily manipulate the DOM and update it when a user interacts with it with states. It also allows developers to traverse the code easier because they are separated into individual components. 
+
 - [ ] What does it mean to _think_ in react?
+
+  To create elements of a page in individual components.
 
 - [ ] Describe state.
 
+  A state is the current values that a component holds.
+
 - [ ] Describe props.
 
+  They are characteristics or data that is passed down from a parent component to a child component.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+  A side effect is a function to be executed after the page has loaded or when a state has changed. To sync effect you will have to the use effect an array and inside the array you will have to declare what it needs to watch for to execute the effect.
 
 ## Project Set Up
 
@@ -79,6 +89,7 @@ Your finished project must include all of the following requirements:
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
 
 ## Stretch Problems
+
 - [ ] Next week we will be looking at React forms. Look a head and try to create a search form that will filter through the data displayed from your characters. 
 
 - [ ] Build a pagination system that will allow you to load the next page of data.
